@@ -1,11 +1,11 @@
-
+import React from 'react';
 const Header = (props) => {
   return (
-    <Header>
+    <header>
       <div className='container'>
         <h2>{props.text}</h2>
       </div>
-    </Header>
+    </header>
   )
 }
 
