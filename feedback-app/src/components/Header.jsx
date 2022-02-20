@@ -1,7 +1,7 @@
 import React from 'react';
 const Header = (props) => {
   const headerStyles = {
-    text: 'FeedBack UI',
+    text: props.text,
     backgroundColor: props.bgColor,
     color: props.textColor,
   }
