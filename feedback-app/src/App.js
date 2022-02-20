@@ -3,6 +3,7 @@ import Header from './components/Header';
 import FeedBackList from './components/FeedBackList';
 import FeedBackData from './data/FeedBackData';
 import FeedBackStats from './components/FeedBackStats';
+import FeedbackForm from './components/FeedbackForm';
 
 const App = () => {
   const [feedback, setFeedBack] = useState(FeedBackData)
@@ -18,8 +19,10 @@ const App = () => {
     <>
       <Header text="FeedBack UI"/>
       <div className ="container">
+        <FeedbackForm />
         <FeedBackStats data={feedback} />
-        <FeedBackList data={feedback} handleDelete={deleteFeedBack}/>
+        <FeedBackList data={feedback} 
+        handleDelete={deleteFeedBack}/>
       </div>
     </>
   )
