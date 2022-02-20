@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import FeedbackItem from "./FeedbackItem";
+
 
 const FeedBackStats = ({data}) => {
   //Calculate ratings
