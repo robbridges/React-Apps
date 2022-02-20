@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <>
-      <Header text="Hello World"/>
+      <Header text="FeedBack UI"/>
       <div className ="container">
         <FeedBackStats data={feedback} />
         <FeedBackList data={feedback} handleDelete={deleteFeedBack}/>
