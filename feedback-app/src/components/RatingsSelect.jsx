@@ -5,7 +5,7 @@ function RatingSelect({select}) {
     const [selected, setSelected] = useState(10)
  
     const handleChange = (e) => {
-        //change string to number with +
+        
         setSelected(parseInt(e.currentTarget.value))
         select(parseInt(e.currentTarget.value))
     }
