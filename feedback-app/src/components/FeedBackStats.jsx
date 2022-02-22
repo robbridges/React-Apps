@@ -20,7 +20,7 @@ const FeedBackStats = ({data}) => {
 }
 
 FeedBackStats.propTypes = {
-  feedback: PropTypes.array.isRequired
+  data: PropTypes.array.isRequired
 }
 
 export default FeedBackStats;
