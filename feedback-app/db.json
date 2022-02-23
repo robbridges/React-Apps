@@ -1,0 +1,29 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "text": "Great Service, they gave me an extra goldfish they had lying around",
+      "rating": 10
+    },
+    {
+      "id": 2,
+      "text": "Terrible service, they lost my gold fish",
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "text": "I'm not sure what this business is even here for, but they paid me 20 bucks for a good review... so",
+      "rating": 10
+    },
+    {
+      "text": "Pretty awesome.",
+      "rating": 9,
+      "id": 4
+    },
+    {
+      "text": "Hmm, this is a great course",
+      "rating": 8,
+      "id": 5
+    }
+  ]
+}
